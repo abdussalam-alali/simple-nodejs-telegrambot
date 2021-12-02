@@ -1,0 +1,19 @@
+{
+  "name": "telegram-bot-nodejs",
+  "version": "1.0.0",
+  "description": "Telegram echo bot",
+  "main": "app/app.js",
+  "scripts": {
+    "start": "node app/app.js",
+    "dev": "nodemon"
+  },
+  "author": "Abdussalam Al-Ali",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "node-telegram-bot-api": "^0.54.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
